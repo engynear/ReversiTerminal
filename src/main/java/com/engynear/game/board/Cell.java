@@ -6,7 +6,6 @@ public class Cell {
     private CellColor color = CellColor.EMPTY;
 
     public Cell(int x, int y) {
-        //if x or y is out of field range
         if (x < 0 || x > 7 || y < 0 || y > 7) {
             throw new IllegalArgumentException("Cell coordinates are out of field range");
         }

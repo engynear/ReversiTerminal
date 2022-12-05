@@ -1,7 +1,6 @@
 package com.engynear.io;
 
 public class Output {
-    //static print error
     public static void printError(String error) {
         System.out.println(error);
     }

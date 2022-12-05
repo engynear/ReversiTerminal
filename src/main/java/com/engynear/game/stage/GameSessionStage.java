@@ -6,7 +6,6 @@ import com.engynear.game.player.Player;
 import com.engynear.io.Output;
 
 public class GameSessionStage implements SessionStage {
-    //player1, player2, field in constructor
     GameSession gameSession;
     Player player1;
     Player player2;

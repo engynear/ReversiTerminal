@@ -17,7 +17,6 @@ public class InputHandler {
     }
 
     public static int getMenuInput(int length) {
-        //regex numbers
         String input = scanner.nextLine();
         if (input.matches("[0-9]+")) {
             int inputInt = Integer.parseInt(input);
